@@ -1,1 +1,1 @@
-![Uploading image.png…]()
+![image1](/fotos/foto1.png)
