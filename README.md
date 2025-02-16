@@ -81,9 +81,3 @@ En aquesta captura s'ha eliminat un registre de la taula `Clientes` utilitzant l
 
 no funciona no se per que
 ---
-
-### **Commits realitzats**
-- `result del read_registre`: Commit realitzat després de llegir tots els registres de la taula.
-- `result d’un registre del read_registre`: Commit realitzat després de llegir un registre específic.
-- `result d’un camp d’un registre del read_registre`: Commit realitzat després de llegir un camp específic d'un registre.
-- `INTENTS mini exercicis LISTS`: Commit realitzat després de completar els exercicis addicionals.
