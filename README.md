@@ -28,3 +28,37 @@ Aquesta captura mostra la lectura de tots els registres de la taula `Clientes` m
 
 En aquesta captura s'ha extret un registre específic de la taula `Clientes` utilitzant l'arxiu `read_registre.py`. S'ha fet una consulta SQL amb la condició `WHERE id_cliente = 5;` per obtenir les dades del client amb aquest identificador. La captura mostra les dades completes d'aquest registre, incloent el nom, adreça, telèfon, correu electrònic i data de cumpleanys.
 
+---
+
+### **Captura 5: Lectura d'un camp específic d'un registre**
+![image5](/fotos/foto5.png)
+
+Aquesta captura mostra com s'ha extret un camp específic d'un registre de la taula `Clientes`. S'ha utilitzat l'arxiu `read_registre.py` per obtenir el telèfon del client amb `id_cliente = 5`. La consulta SQL utilitzada és `SELECT teléfono_cliente FROM Clientes WHERE id_cliente = 5;`. La captura mostra el telèfon del client.
+
+---
+
+### **Captura 6: Exercicis addicionals**
+![image6](/fotos/foto6.png)
+
+
+---
+
+### **Captura 7: Actualització d'un registre**
+![image7](/fotos/foto7.png)
+
+Aquesta captura mostra la modificació d'un registre a la taula `Clientes`. S'ha utilitzat l'arxiu `update_registre.py` per actualitzar el telèfon del client amb `id_cliente = 1`. La consulta SQL utilitzada és `UPDATE Clientes SET teléfono_cliente = '000000000' WHERE id_cliente = 1;`. La captura mostra la taula després de l'actualització, on es pot veure que el telèfon del client ha canviat correctament.
+
+---
+
+### **Captura 8: Exercicis addicionals**
+![image8](/fotos/foto8.png)
+
+Aquesta captura mostra els resultats dels exercicis addicionals on s'han extret dades específiques de la taula `Clientes`:
+1. Les dades de l'Andreu.
+2. El correu de l'Andreu.
+3. Les dades de la Vivian.
+4. La direcció de la Vivian.
+5. Les dades de l'Albert.
+6. La data de cumpleanys de l'Albert.
+
+S'han utilitzat consultes SQL amb condicions `WHERE` per extreure aquestes dades i s'han imprès a la terminal.
