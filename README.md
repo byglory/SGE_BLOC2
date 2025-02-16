@@ -27,3 +27,4 @@ Aquesta captura mostra la lectura de tots els registres de la taula `Clientes` m
 ![image4](/fotos/foto4.png)
 
 En aquesta captura s'ha extret un registre específic de la taula `Clientes` utilitzant l'arxiu `read_registre.py`. S'ha fet una consulta SQL amb la condició `WHERE id_cliente = 5;` per obtenir les dades del client amb aquest identificador. La captura mostra les dades completes d'aquest registre, incloent el nom, adreça, telèfon, correu electrònic i data de cumpleanys.
+
