@@ -62,3 +62,28 @@ Aquesta captura mostra els resultats dels exercicis addicionals on s'han extret 
 6. La data de cumpleanys de l'Albert.
 
 S'han utilitzat consultes SQL amb condicions `WHERE` per extreure aquestes dades i s'han imprès a la terminal.
+
+---
+
+### **Captura 9: Actualització del telèfon del client 1**
+![image9](/fotos/foto9.png)
+
+Aquesta captura mostra la resposta de la terminal després d'executar l'arxiu `main.py`. Es pot veure que el telèfon del client amb `id_cliente = 1` ha estat actualitzat correctament.
+
+
+
+---
+
+### **Captura 10: Eliminació d'un registre**
+![image10](/fotos/foto10.png)
+
+En aquesta captura s'ha eliminat un registre de la taula `Clientes` utilitzant l'arxiu `delete_registre.py`. S'ha fet una consulta SQL amb la condició `DELETE FROM Clientes WHERE id_cliente = 28;` per eliminar el registre amb aquest identificador. La captura mostra la taula després de l'eliminació, on es pot veure que el registre ja no està present.
+
+no funciona no se per que
+---
+
+### **Commits realitzats**
+- `result del read_registre`: Commit realitzat després de llegir tots els registres de la taula.
+- `result d’un registre del read_registre`: Commit realitzat després de llegir un registre específic.
+- `result d’un camp d’un registre del read_registre`: Commit realitzat després de llegir un camp específic d'un registre.
+- `INTENTS mini exercicis LISTS`: Commit realitzat després de completar els exercicis addicionals.
